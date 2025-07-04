@@ -4,13 +4,9 @@ export default {
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  darkMode: 'class', // 🌙 enables class-based dark mode toggle
   theme: {
-    extend: {
-      // You can define custom colors, fonts, etc. here
-    },
+    extend: {},
   },
-  plugins: [
-    // Add Tailwind plugins like @tailwindcss/forms if needed
-  ],
+  darkMode: 'media', // Use system theme
+  plugins: [],
 }
